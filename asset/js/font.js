@@ -65,46 +65,6 @@
         gsap.to(".flex-box .t-flex8 .img", { opacity: 1, stagger: 0.03, delay: 7.9 })
         //about
         gsap.to(".underbar", { opacity: 1, stagger: 0.03, delay: 8.8 })
-    }else if ( sTop-winH <  $(".sec2").offset().top) {
-        //첫번째 줄
-        gsap.to(".flex-box .t-flex1 .img", { opacity: 0, stagger: 0.03, scale: 1.9, duration: 1.3 })
-        gsap.to(".flex-box .t-flex1 .text strong span", { opacity: 0, stagger: 0.03, duration: 0.3, delay: 0.5 })
-        gsap.to(".flex-box .t-flex1 .textIta strong span", { opacity: 0, stagger: 0.03, duration: 0.3, delay: 0.7 })
-        gsap.to(".flex-box .t-flex1 .img1-1", { opacity: 0, stagger: 1, rotate: 360, delay: 0.7 })
-         //두번째 줄
-         gsap.to(".flex-box .t-flex2 .img1-1 ", { opacity: 0, scale: 1, duration: 0.3, delay: 1 })
-         gsap.to(".flex-box .t-flex2 .text strong span", { opacity: 0, stagger: 0.03, delay: 1.4 })
-         gsap.to(".flex-box .t-flex2 .img", { opacity: 0, stagger: 0.03, delay: 1.7 })
-         gsap.to(".flex-box .t-flex2 .text.text2 strong span", { opacity: 0, stagger: 1, delay: 1.9 })
-         //세번째 줄
-         gsap.to(".flex-box .t-flex3 .img", { opacity: 0, scale: 1, duration: 0.3, delay: 2.1 })
-         gsap.to(".flex-box .t-flex3 .text1 strong span", { opacity: 0, stagger: 0.03, delay: 2.4 })
-         gsap.to(".flex-box .t-flex3 .text strong span", { opacity: 0, stagger: 0.03, delay: 2.6 })
-         //네번째 줄
-         gsap.to(".flex-box .t-flex4 .text strong span", { opacity: 0, scale: 1, duration: 0.3, delay: 3.0 })
-         gsap.to(".flex-box .t-flex4 .img", { opacity: 0, stagger: 0.03, delay: 3.4 })
-         gsap.to(".flex-box .t-flex4 .img1-1", { opacity: 0, stagger: 0.03, delay: 3.7 })
-         gsap.to(".flex-box .t-flex4 .text2 strong span", { opacity: 0, stagger: 0.03, delay: 4.2 })
-         //다섯번째 줄
-         gsap.to(".flex-box .t-flex5 .text strong span", { opacity: 0, scale: 1, duration: 0.3, delay: 3.9 })
-         gsap.to(".flex-box .t-flex5 .img", { opacity: 0, stagger: 0.03, delay: 4.2 })
-         gsap.to(".flex-box .t-flex5 .text1 strong span", { opacity: 0, stagger: 0.03, delay: 4.6 })
-         gsap.to(".flex-box .t-flex5 .img1-1", { opacity: 0, stagger: 0.03, delay: 5.1 })
-         //여섯번째 줄
-         gsap.to(".flex-box .t-flex6 .text strong span", { opacity: 0, scale: 1, duration: 0.3, delay: 5.1 })
-         gsap.to(".flex-box .t-flex6 .img1-1", { opacity: 0, stagger: 0.03, delay: 5.9 })
-         gsap.to(".flex-box .t-flex6 .text1 strong span", { opacity: 0, stagger: 0.03, delay: 5.7 })
-         gsap.to(".flex-box .t-flex6 .img1-2", { opacity: 0, stagger: 0.03, delay: 6.1 })
-         gsap.to(".flex-box .t-flex6 .img1-3", { opacity: 0, stagger: 0.03, delay: 6.6 })
-         //일곱번째 줄
-         gsap.to(".flex-box .t-flex7 .img", { opacity: 0, scale: 1, duration: 0.3, delay: 6.7 })
-         gsap.to(".flex-box .t-flex7 .text strong span", { opacity: 0, stagger: 0.03, delay: 7.1 })
-         //여덟번째 줄
-         gsap.to(".flex-box .t-flex8 .text strong span", { opacity: 0, stagger: 0.03, delay: 7.3 })
-         gsap.to(".flex-box .t-flex8 .img", { opacity: 0, stagger: 0.03, delay: 7.9 })
-         //about
-         gsap.to(".underbar", { opacity: 0, stagger: 0.03, delay: 8.8 })
-
     }; 
 
     // const sTop = $(window).scrollTop() + $(window).height();

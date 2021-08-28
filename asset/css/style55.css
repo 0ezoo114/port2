@@ -1,18 +1,16 @@
 /* layout */
-
+@import url(../css/reset.css);
 #contents {
 }
 
 #section1 {
   position: relative;
-  /* height: 160vh; */
   background: #fffbf6;
   z-index: 8000;
 }
 
 #section2 {
   position: relative;
-  /* height: 200vh; */
   background: #fff;
   z-index: 7500;
 }

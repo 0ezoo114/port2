@@ -1,0 +1,272 @@
+
+
+/* layout */
+#contents {}
+
+#section1 {
+    position: relative;
+    height: 1700px;
+    background: #F5F0EC;
+}
+
+#section2 {
+     position: relative;
+    height: 4200px;
+    background: #fff;
+}
+
+#section3 {
+     position: relative;
+    height: 100vh;
+    background: #D4DDE3;
+}
+
+#section4 {}
+
+#section5 {}
+
+#section6 {}
+
+
+.scroll {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+    z-index: 1000;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    z-index: 100000;
+}
+
+/* header */
+#header {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+#header h1 {
+    padding: 32px 30px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+#header h1 span {
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+}
+#header h1 span::after {
+    content: '-';
+    position: absolute;
+    left: 23px;
+}
+#header h1 span:last-child::after {
+    display: none;
+}
+#header .menu {
+  width: 55px;
+  height: 55px;
+   border: 1px solid #000;
+    border-radius: 50%;
+        text-align: center;
+   margin: 20px 20px;
+}
+#header .menu span{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0px;
+    margin: 5px;
+    font-weight: 200;
+    line-height: 55px;
+}
+
+/* sec1 */
+.sec1 h2 {
+    font-family: "Canela";
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+    padding-top: 10%;
+    position: relative;
+    z-index: 100;
+}
+.sec1 .img {
+    width: 50vw;
+    height: 500px;
+    background: #000;
+    margin: -75px auto 0 auto;
+    position: relative;
+    z-index: 10;
+    background: url(../img/firstphoto) no-repeat 50%;
+    background-size: cover;
+}
+.sec1 h2.under{
+    font-family: "Canela";
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+    top: -200px;
+    position: relative;
+    z-index: 11;
+}
+.sec1 .arrow{
+    width: 60px;
+    height: 90px;
+    margin: -5vw auto 5vw;
+    background: url(../img/arrow.svg) no-repeat 50%;
+}
+/* sec2 */
+
+/* sec2 */
+.sec2 .flex-box {
+     width: 100vw;
+    margin: 200px auto;
+    padding-top: 50px;
+    text-align: center;
+     font-family: 'Canela';
+    font-size: 8vw;
+    text-align: center;
+    line-height: 1.4;
+      color:#1B1B1B;
+    font-weight: 100;
+}
+.sec2 .flex-box .t-flex1{
+  display: flex;
+    justify-content: center;
+}
+.sec2 .flex-box .t-flex1 .img{
+background: url(../img/sec2-1.jpg) no-repeat center;
+    width: 16vw;
+    height: 9vw;
+margin-right: 2vw;
+}
+.sec2 .flex-box .t-flex1 .text{
+margin-right: 2vw;
+}
+.sec2 .flex-box .t-flex1 .textIta{
+color: #9ebdae;
+    font-family: 'canela';
+    font-style: italic;
+}
+
+
+.sec2 .flex-box .t-flex2{
+   display: flex;
+    justify-content:center;
+}
+
+
+.sec2 .flex-box .t-flex2 .img{
+background: url(../img/sec2-2.jpg) center 50%;
+    width: 17vw;
+     height: 9vw;
+     margin-left: 2vw;
+     margin-right: 2vw;
+}
+
+.sec2 .flex-box .t-flex3{
+   display: flex;
+    justify-content:center;
+   
+}
+
+.sec2 .flex-box .t-flex3 .img{
+background: url(../img/sec2-3.jpg) center 50%;
+    width: 18vw;
+   height: 9vw;
+     margin-right: 2vw;
+}
+
+.sec2 .flex-box .t-flex3 .text1{
+    color: #9ebdae;
+}
+
+.sec2 .flex-box .t-flex4{
+   display: flex;
+    justify-content:center;
+}
+.sec2 .flex-box .t-flex4 .img{
+background: url(../img/sec2-4-1.jpg) no-repeat 50%;
+    width: 16vw;
+   height: 9vw;
+/*     margin-left: 2vw;*/
+/*     margin-right: 2vw;*/
+}
+.sec2 .flex-box .t-flex5{
+   display: flex;
+    justify-content:center;
+}
+.sec2 .flex-box .t-flex5 .img{
+background: url(../img/sec2-6.jpg) no-repeat;
+    width: 16vw;
+ height: 9vw;
+     margin-right: 0vw;
+     margin-left: 2vw;
+}
+.sec2 .flex-box .t-flex5 .text1{
+  color: #9ebdae;
+}
+.sec2 .flex-box .t-flex6{
+   display: flex;
+    justify-content:center;
+}
+.sec2 .flex-box .t-flex7{
+   display: flex;
+    justify-content:center;
+}
+.sec2 .flex-box .t-flex7 .img{
+    background: url(../img/sec2-7.jpg) left -50px center no-repeat;
+    width: 10vw;
+  height: 9vw;
+        margin-right: 2vw;
+}
+.sec2 .flex-box .t-flex8{
+   display: flex;
+    justify-content:center;
+}
+
+.sec2 .flex-box .t-flex8 .text{
+color: #9ebdae;
+}
+
+.sec2 .flex-box .t-flex8 .img{
+    background: url(../img/sec2-8.jpg) top -140px center;
+    width: 22vw;
+ height: 9vw;
+    margin-left: 2vw;
+}
+.sec2 .about{
+  font-size: 2.8vw;
+      color:#1B1B1B;
+    font-weight: 100;
+    line-height: 1;
+   font-family: 'canela';
+    text-align: center;
+    font-style: normal;
+    width: 6.5vw;
+    margin: 0 auto;
+    border-bottom: 1.5px solid;
+    margin-bottom: 10px;
+}
+
+/* sec3 */
+.sec3{
+    margin: 10vw;
+    
+}
+.sec3 h1 {
+    font-family: "Canela";
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+/*    padding: 10%;*/
+    z-index: 110;
+    line-height: 100vh;
+}

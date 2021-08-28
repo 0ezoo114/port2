@@ -1,0 +1,151 @@
+
+
+/* layout */
+#contents {}
+
+#section1 {
+    position: relative;
+    height: 1650px;
+    background: #F5F0EC;
+}
+
+#section2 {
+     position: relative;
+    background: #fff;
+}
+
+#section3 {
+     position: relative;
+    background: #BCC6BC;
+    height: 5000px;
+}
+
+#section4 {}
+
+#section5 {}
+
+#section6 {}
+
+
+.scroll {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+    z-index: 1000;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    z-index: 100000;
+}
+
+/* header */
+#header {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+#header h1 {
+    padding: 32px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#header h1 span {
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+}
+#header h1 span::after {
+    content: '-';
+    position: absolute;
+    left: 23px;
+}
+#header h1 span:last-child::after {
+    display: none;
+}
+#header .menu {
+  width: 55px;
+  height: 55px;
+   border: 1px solid #000;
+    border-radius: 50%;
+        text-align: center;
+   margin: 20px 20px;
+}
+#header .menu span{
+    font-family: "Roboto";
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0px;
+    margin: 5px;
+
+    line-height: 55px;
+}
+
+/* sec1 */
+.sec1 h2 {
+    font-family: "Canela";
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+    padding-top: 10%;
+    position: relative;
+    z-index: 100;
+}
+.sec1 .img {
+    width: 50vw;
+    height: 500px;
+    background: #000;
+    margin: -75px auto 0 auto;
+    position: relative;
+    z-index: 10;
+    background: url(https://images.unsplash.com/photo-1625744128964-43aa35cc1269?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80) top -170px center;
+    /* filter: grayscale(100%); */
+}
+.sec1 h2.under{
+    font-family: "Canela";
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+    top: -200px;
+    position: relative;
+    z-index: 11;
+}
+.sec1 .arrow{
+    width: 60px;
+    height: 90px;
+    margin: -70px auto;
+    background: url(../img/arrow.svg) no-repeat 50%;
+}
+
+
+.site-wrap {
+
+}
+.site-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+.site-wrap .left {
+    position: sticky;
+    top: 8vw;
+    font-size: 15vw;
+    line-height: .91;
+    color: #F7CC5F;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.site-wrap .right {
+    font-size: 15vw;
+    line-height: .91;
+    color: #F7CC5F;
+    height: 95.5vw;
+    width: 72.22vw;
+    padding: 1.3vw 0px 0px;
+    margin-left: 2.5vw;
+    position: relative;
+}
+

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>q2</title>
+</head>
+
+<body>
+    <script>
+        //q2
+        //길이가 서로 다른 A, B, C 세 개의 막대 길이가 주어지면 이 세 막대로 삼각형을 만들 수 있으면 
+        //“YES"를 출력하고, 만들 수 없으면 ”NO"를 출력한다.
+
+        //1. 가장 긴변 찾기
+        //function solution(a, b, c) {
+        //    let max;
+        //    if (a > b) max = a;
+        //   else max = b;
+        //   if (c > max) max = c;
+        // }
+
+        //2. 나머지 변 두개의 합 찾기
+        //가장긴변max보다 나머지 변 두개의 합이 커야한다.
+        //총합 - max = 나머지 두 변의 합
+        //총합을 변수로 작성해준다.
+
+        //3.나머지 변 두 개의 합 보다 max가 작으면 NO 리턴, 크면 YES 리턴
+        function solution(a, b, c) {
+            let max;
+            if (a > b) max = a;
+            else max = b;
+            if (c > max) max = c;
+            let total = a + b + c;
+            if (total - max <= max) answer = "NO";
+            else answer = "YES";
+            return answer;
+        }
+        console.log(solution(6, 7, 11));
+        console.log(solution(13, 33, 17));
+    </script>
+</body>
+
+</html>

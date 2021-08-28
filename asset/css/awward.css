@@ -1,0 +1,40 @@
+.s6_tit{
+    text-align: center;
+    padding:8vw 0 14vw;
+}
+.s6_btn{
+    display: block;
+    width:4.4vw;
+    height:4.4vw;
+    margin: 0 auto 7.3vw;
+    background: no-repeat center/contain url("../img/btn.svg");
+}
+.s6_text{
+    font-size: 6.8vw;
+    line-height: 1.2;
+}
+.s6{
+    padding:0 7vw 10vw;
+}
+.s6_subtit{
+    font-size: 2.6vw;
+}
+
+.s6_cont ul{
+    border-top: 2px solid #D6AF58;
+}
+.s6_cont li{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #D6AF58;
+}
+
+.s6_cont li p:nth-child(1){
+    font-size: 4.5vw;
+    flex-basis: 65%;
+}
+.s6_cont li p:nth-child(2){
+    font-size: 1.2vw;
+    font-family: var(--sub-font);
+    flex-basis: 35%;
+}

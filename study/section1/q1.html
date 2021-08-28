@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>q1</title>
+</head>
+
+<body>
+    <script>
+        //a,b 를 먼저 비교하고
+        //그중 작은 값이랑 c를 비교해서 가장 작은 수를 출력한다.
+        function solution(a, b, c) {
+            let min;
+            if (a < b) min = a;
+            else min = b;
+            if (c < min) min = c;
+            return min;
+        }
+        console.log(solution(6, 5, 11));
+    </script>
+</body>
+
+</html>

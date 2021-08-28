@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Canela";
+  src: url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.eot");
+  src: url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b4f2a9d7db6116f0fe57e19a1e00e1e0.svg#Canela")
+      format("svg");
+}
+/* @import url(//db.onlinewebfonts.com/c/b4f2a9d7db6116f0fe57e19a1e00e1e0?family=Canela); */
+
+@import url("https://fonts.googleapis.com/css2? family= Noto+Serif+KR:wght@200;300;400;500;600 & display=swap");
+font {
+  font-family: "Noto Serif KR", serif;
+  /* font-family: "Noto Sans KR", sans-serif; */
+  font-family: "Canela";
+  font-family: "S-CoreDream-3Light";
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap");
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-weight: 100;
+}
+html input[type="button"],
+input[type="email"],
+input[type="password"],
+input[type="reset"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+blockquote,
+body,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+select,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}

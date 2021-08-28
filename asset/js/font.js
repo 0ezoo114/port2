@@ -285,7 +285,7 @@
         gsap.to(".cont", { opacity: 0, stagger: 0.03, y: 0, delay:  0.5 }) 
     }; 
     
-    //section11
+    //section11_
     if( sTop-winH >  $(".sec11").offset().top){
         //1
         gsap.to(".end-inner .underbar strong span", { opacity: 1, stagger: 0.03, y: 0, duration: 1.0, delay: 0.5 }) 

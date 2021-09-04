@@ -21,6 +21,8 @@ font {
   font-family: "Canela";
   font-family: "S-CoreDream-3Light";
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap");
 @font-face {
   font-family: "S-CoreDream-3Light";
@@ -82,4 +84,8 @@ th,
 ul {
   margin: 0;
   padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
